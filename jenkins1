@@ -6,8 +6,10 @@ pipeline {
             steps {
                 echo 'Hello fuckin Docker'
             }
-             steps {
-                echo 'Docker'
+        }
+        stage('Message') {
+            steps {
+                echo 'Docker test'
             }
         }
     }
