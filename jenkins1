@@ -1,5 +1,5 @@
 pipeline {
-    agent admin
+    agent principal
 
     stages {
         stage('Hello') {
